@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestCases.GithubRepo">
+        <methods>
+          <include name="CreateaFork"/>
+          <include name="ReplaceAllRepositoryTopics"/>
+          <include name="CreateaRepositoryfortheAuthenticatedUser"/>
+          <include name="GetaRepository"/>
+          <include name="ListPublicRepositories"/>
+          <include name="ListForks"/>
+          <include name="DeleteAnAutolinkReferenceFromaRepository"/>
+          <include name="ListRepositoryLanguages"/>
+          <include name="ListRepositoryTags"/>
+          <include name="UpdateaRepository"/>
+          <include name="DeleteaRepository"/>
+          <include name="GetAllRepositoryTopics"/>
+          <include name="ListRepositoriesForaUser"/>
+          <include name="CreateAnAutolinkReferenceforaRepository"/>
+          <include name="CreateOrUpdateFileContents"/>
+          <include name="GetaRepository2"/>
+          <include name="DeleteaFile"/>
+          <include name="GetAnAutolinkReferenceofaRepository"/>
+        </methods>
+      </class> <!-- TestCases.GithubRepo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
